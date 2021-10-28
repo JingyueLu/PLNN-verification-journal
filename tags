@@ -1,0 +1,888 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AXES_NAMES	build/scripts-3.6/graph_PCAMNIST_study.py	/^    AXES_NAMES = ["Number of Inputs",$/;"	v	class:Settings
+AcasNetwork	build/lib/plnn/model.py	/^class AcasNetwork:$/;"	c
+AcasNetwork	build/scripts-3.6/acas_2_rlv.py	/^from plnn.model import AcasNetwork$/;"	i
+AcasNetwork	plnn/model.py	/^class AcasNetwork:$/;"	c
+AssumptionLinearizedNetwork	build/lib/plnn/network_linear_approximation.py	/^class AssumptionLinearizedNetwork(LinearizedNetwork):$/;"	c
+AssumptionLinearizedNetwork	build/scripts-3.6/relubab_runner.py	/^from plnn.network_linear_approximation import AssumptionLinearizedNetwork$/;"	i
+Benchmarker	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^class Benchmarker(object):$/;"	c
+BlackBoxNetwork	build/lib/plnn/black_box.py	/^class BlackBoxNetwork:$/;"	c
+BlackBoxNetwork	build/scripts-3.6/grb_blackbox_runner.py	/^from plnn.black_box import BlackBoxNetwork$/;"	i
+COMPS	build/lib/plnn/model.py	/^COMPS = [GE, LE]$/;"	v
+COMPS	plnn/model.py	/^COMPS = [GE, LE]$/;"	v
+CONV2D	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    CONV2D = 1$/;"	v	class:LinearOp
+CandidateDomain	build/lib/plnn/branch_and_bound.py	/^class CandidateDomain:$/;"	c
+CandidateDomain	plnn/branch_and_bound.py	/^class CandidateDomain:$/;"	c
+Counter	build/lib/plnn/model.py	/^from collections import Counter, defaultdict$/;"	i
+Counter	build/scripts-3.6/compare_benchmarks.py	/^from collections import Counter$/;"	i
+Counter	plnn/model.py	/^from collections import Counter, defaultdict$/;"	i
+DEPTH	build/scripts-3.6/graph_PCAMNIST_study.py	/^    DEPTH = "depth"$/;"	v	class:Settings
+DIMS	build/scripts-3.6/evaluate_twinladder.py	/^DIMS = [Settings.INP, Settings.LAYERS, Settings.WIDTH, Settings.MARGIN]$/;"	v
+DO_PLOTS	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^DO_PLOTS = False$/;"	v
+DualConv2d	build/lib/plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU, DualConv2d, DualReshape$/;"	i
+DualConv2d	plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU, DualConv2d, DualReshape$/;"	i
+DualLinear	build/lib/plnn/conv_kwinter.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU$/;"	i
+DualLinear	build/lib/plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU, DualConv2d, DualReshape$/;"	i
+DualLinear	plnn/conv_kwinter_gen.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU$/;"	i
+DualLinear	plnn/conv_kwinter_kw.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU$/;"	i
+DualLinear	plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU, DualConv2d, DualReshape$/;"	i
+DualNetwork	build/lib/plnn/conv_kwinter.py	/^from convex_adversarial import DualNetwork$/;"	i
+DualNetwork	build/lib/plnn/dual_network_linear_approximation.py	/^from convex_adversarial import DualNetwork$/;"	i
+DualNetwork	plnn/conv_kwinter_gen.py	/^from convex_adversarial import DualNetwork$/;"	i
+DualNetwork	plnn/conv_kwinter_kw.py	/^from convex_adversarial import DualNetwork$/;"	i
+DualNetwork	plnn/dual_network_linear_approximation.py	/^from convex_adversarial import DualNetwork$/;"	i
+DualReLU	build/lib/plnn/conv_kwinter.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU$/;"	i
+DualReLU	build/lib/plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU, DualConv2d, DualReshape$/;"	i
+DualReLU	plnn/conv_kwinter_gen.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU$/;"	i
+DualReLU	plnn/conv_kwinter_kw.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU$/;"	i
+DualReLU	plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU, DualConv2d, DualReshape$/;"	i
+DualReshape	build/lib/plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU, DualConv2d, DualReshape$/;"	i
+DualReshape	plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_layers import DualLinear, DualReLU, DualConv2d, DualReshape$/;"	i
+ERROR	build/scripts-3.6/cactus_plot.py	/^ERROR = 'ERROR'$/;"	v
+ERROR	build/scripts-3.6/compare_benchmarks.py	/^ERROR = 'ERROR'$/;"	v
+Extension	setup.py	/^from setuptools.extension import Extension$/;"	i
+F	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^from torch.nn import functional as F$/;"	i
+F	build/lib/plnn/conv_kwinter.py	/^from torch.nn import functional as F$/;"	i
+F	build/lib/plnn/dual_network_linear_approximation.py	/^from torch.nn import functional as F$/;"	i
+F	build/lib/plnn/kw_score_conv.py	/^from torch.nn import functional as F$/;"	i
+F	build/lib/plnn/network_linear_approximation.py	/^from torch.nn import functional as F$/;"	i
+F	plnn/conv_kwinter_gen.py	/^from torch.nn import functional as F$/;"	i
+F	plnn/conv_kwinter_kw.py	/^from torch.nn import functional as F$/;"	i
+F	plnn/dual_network_linear_approximation.py	/^from torch.nn import functional as F$/;"	i
+F	plnn/kw_score_conv.py	/^from torch.nn import functional as F$/;"	i
+F	plnn/mip_solver.py	/^from torch.nn import functional as F$/;"	i
+F	plnn/network_linear_approximation.py	/^from torch.nn import functional as F$/;"	i
+FAILS	build/scripts-3.6/cactus_plot.py	/^FAILS = ['timeout', 'OOM', 'ERROR']$/;"	v
+FAILS	build/scripts-3.6/compare_benchmarks.py	/^FAILS = ['timeout', 'OOM', 'ERROR']$/;"	v
+Flatten	build/lib/plnn/conv_kwinter.py	/^from plnn.modules import View, Flatten$/;"	i
+Flatten	build/lib/plnn/dual_network_linear_approximation.py	/^from plnn.modules import Flatten$/;"	i
+Flatten	build/lib/plnn/kw_score_conv.py	/^from plnn.modules import Flatten$/;"	i
+Flatten	build/lib/plnn/model.py	/^from plnn.modules import View, Flatten$/;"	i
+Flatten	build/lib/plnn/modules.py	/^class Flatten(nn.Module):$/;"	c
+Flatten	build/lib/plnn/network_linear_approximation.py	/^from plnn.modules import View, Flatten$/;"	i
+Flatten	exp_utils/mnist_utils.py	/^from plnn.modules import View, Flatten$/;"	i
+Flatten	exp_utils/model_utils.py	/^from plnn.modules import View, Flatten$/;"	i
+Flatten	plnn/conv_kwinter_gen.py	/^from plnn.modules import View, Flatten$/;"	i
+Flatten	plnn/conv_kwinter_kw.py	/^from plnn.modules import View, Flatten$/;"	i
+Flatten	plnn/dual_network_linear_approximation.py	/^from plnn.modules import Flatten$/;"	i
+Flatten	plnn/kw_score_conv.py	/^from plnn.modules import Flatten$/;"	i
+Flatten	plnn/mip_solver.py	/^from plnn.modules import View, Flatten$/;"	i
+Flatten	plnn/model.py	/^from plnn.modules import View, Flatten$/;"	i
+Flatten	plnn/modules.py	/^class Flatten(nn.Module):$/;"	c
+Flatten	plnn/network_linear_approximation.py	/^from plnn.modules import View, Flatten$/;"	i
+HeuristicNetwork	build/lib/plnn/best_guess_timeout.py	/^class HeuristicNetwork:$/;"	c
+HeuristicNetwork	build/scripts-3.6/heuristic_runner.py	/^from plnn.best_guess_timeout import HeuristicNetwork$/;"	i
+INP	build/scripts-3.6/evaluate_twinladder.py	/^    INP = "inp"$/;"	v	class:Settings
+INP	build/scripts-3.6/graph_PCAMNIST_study.py	/^    INP = "inp"$/;"	v	class:Settings
+IPython	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^            import IPython; IPython.embed();$/;"	i
+IPython	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^        import IPython; IPython.embed();$/;"	i
+IPython	build/lib/plnn/model.py	/^        import IPython; IPython.embed();$/;"	i
+IPython	build/scripts-3.6/generate_robustness_nnet.py	/^    import IPython; IPython.embed();$/;"	i
+InfBall	plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_inputs import InfBallBounded, InfBall$/;"	i
+InfBallBounded	build/lib/plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_inputs import InfBallBounded$/;"	i
+InfBallBounded	plnn/dual_network_linear_approximation.py	/^from convex_adversarial.dual_inputs import InfBallBounded, InfBall$/;"	i
+InfeasibleMaskException	build/lib/plnn/conv_kwinter.py	/^class InfeasibleMaskException(Exception):$/;"	c
+InfeasibleMaskException	build/lib/plnn/network_linear_approximation.py	/^class InfeasibleMaskException(Exception):$/;"	c
+InfeasibleMaskException	plnn/conv_kwinter_gen.py	/^class InfeasibleMaskException(Exception):$/;"	c
+InfeasibleMaskException	plnn/conv_kwinter_kw.py	/^class InfeasibleMaskException(Exception):$/;"	c
+KWConvGen	med_experiments/stability_analysis.py	/^from plnn.conv_kwinter_gen import KWConvGen$/;"	i
+KWConvGen	plnn/conv_kwinter_gen.py	/^class KWConvGen(LinearizedNetwork):$/;"	c
+KWConvNetwork	build/lib/plnn/conv_kwinter.py	/^class KWConvNetwork(LinearizedNetwork):$/;"	c
+KWConvNetwork	med_experiments/med_bab_mip.py	/^from plnn.conv_kwinter_kw import KWConvNetwork$/;"	i
+KWConvNetwork	plnn/conv_kwinter_kw.py	/^class KWConvNetwork(LinearizedNetwork):$/;"	c
+LAYERS	build/scripts-3.6/evaluate_twinladder.py	/^    LAYERS = "layers"$/;"	v	class:Settings
+LINEAR	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    LINEAR = 0$/;"	v	class:LinearOp
+LinearOp	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^class LinearOp:$/;"	c
+LinearizedNetwork	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	build/lib/plnn/black_box.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	build/lib/plnn/conv_kwinter.py	/^class LinearizedNetwork:$/;"	c
+LinearizedNetwork	build/lib/plnn/dual_network_linear_approximation.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	build/lib/plnn/mip_solver.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	build/lib/plnn/model.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	build/lib/plnn/network_linear_approximation.py	/^class LinearizedNetwork:$/;"	c
+LinearizedNetwork	build/scripts-3.6/bab_runner.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	build/scripts-3.6/compare_relaxations.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	plnn/conv_kwinter_gen.py	/^class LinearizedNetwork:$/;"	c
+LinearizedNetwork	plnn/conv_kwinter_kw.py	/^class LinearizedNetwork:$/;"	c
+LinearizedNetwork	plnn/dual_network_linear_approximation.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	plnn/mip_solver.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	plnn/model.py	/^from plnn.network_linear_approximation import LinearizedNetwork$/;"	i
+LinearizedNetwork	plnn/network_linear_approximation.py	/^class LinearizedNetwork:$/;"	c
+LooseDualNetworkApproximation	build/lib/plnn/conv_kwinter.py	/^from plnn.dual_network_linear_approximation import LooseDualNetworkApproximation$/;"	i
+LooseDualNetworkApproximation	build/lib/plnn/dual_network_linear_approximation.py	/^class LooseDualNetworkApproximation(LinearizedNetwork):$/;"	c
+LooseDualNetworkApproximation	build/lib/plnn/mip_solver.py	/^from plnn.dual_network_linear_approximation import LooseDualNetworkApproximation$/;"	i
+LooseDualNetworkApproximation	build/scripts-3.6/bab_runner.py	/^from plnn.dual_network_linear_approximation import LooseDualNetworkApproximation$/;"	i
+LooseDualNetworkApproximation	plnn/conv_kwinter_gen.py	/^from plnn.dual_network_linear_approximation import LooseDualNetworkApproximation$/;"	i
+LooseDualNetworkApproximation	plnn/conv_kwinter_kw.py	/^from plnn.dual_network_linear_approximation import LooseDualNetworkApproximation$/;"	i
+LooseDualNetworkApproximation	plnn/dual_network_linear_approximation.py	/^class LooseDualNetworkApproximation(LinearizedNetwork):$/;"	c
+LooseDualNetworkApproximation	plnn/mip_solver.py	/^from plnn.dual_network_linear_approximation import LooseDualNetworkApproximation$/;"	i
+MARGIN	build/scripts-3.6/evaluate_twinladder.py	/^    MARGIN = "margin"$/;"	v	class:Settings
+MARGIN	build/scripts-3.6/graph_PCAMNIST_study.py	/^    MARGIN = "margin"$/;"	v	class:Settings
+MIPNetwork	build/lib/plnn/mip_solver.py	/^class MIPNetwork:$/;"	c
+MIPNetwork	build/lib/plnn/model.py	/^        from plnn.mip_solver import MIPNetwork$/;"	i
+MIPNetwork	build/scripts-3.6/mip_robustness.py	/^from plnn.mip_solver import MIPNetwork$/;"	i
+MIPNetwork	build/scripts-3.6/mip_runner.py	/^from plnn.mip_solver import MIPNetwork$/;"	i
+MIPNetwork	build/scripts-3.6/mip_tuner.py	/^from plnn.mip_solver import MIPNetwork$/;"	i
+MIPNetwork	med_experiments/med_bab_mip.py	/^from plnn.mip_solver import MIPNetwork$/;"	i
+MIPNetwork	plnn/mip_solver.py	/^class MIPNetwork:$/;"	c
+MIPNetwork	plnn/model.py	/^        from plnn.mip_solver import MIPNetwork$/;"	i
+MNIST_FOLDER	build/scripts-3.6/mnist_trainer.py	/^MNIST_FOLDER = '.\/'$/;"	v
+MNIST_FOLDER	exp_utils/mnist_utils.py	/^MNIST_FOLDER = '.\/'$/;"	v
+NetworkLP	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^class NetworkLP(LinearizedNetwork):$/;"	c
+NetworkLP	build/scripts-3.6/banban_bab_runner.py	/^from plnn.banban_lp.banban_linear_approximation import NetworkLP$/;"	i
+Parameter	exp_utils/model_utils.py	/^from torch.nn.parameter import Parameter$/;"	i
+PlanetDualVar	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^class PlanetDualVar(Var):$/;"	c
+PlanetPDMapper	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^class PlanetPDMapper:$/;"	c
+PlanetPrimalVar	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^class PlanetPrimalVar(Var):$/;"	c
+PlanetProblem	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^class PlanetProblem(Problem):$/;"	c
+Problem	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^from proxlp.base_problem import Problem$/;"	i
+ReLUDomain	build/lib/plnn/relu_branch_and_bound.py	/^class ReLUDomain:$/;"	c
+ReLUDomain	build/lib/plnn/relu_conv_any.py	/^class ReLUDomain:$/;"	c
+ReLUDomain	build/lib/plnn/relu_conv_gen.py	/^class ReLUDomain:$/;"	c
+ReLUDomain	plnn/relu_conv_any_kw.py	/^class ReLUDomain:$/;"	c
+ReLUDomain	plnn/relu_stability.py	/^class ReLUDomain:$/;"	c
+Reporter	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^class Reporter(object):$/;"	c
+SAT	build/scripts-3.6/cactus_plot.py	/^SAT = 'SAT'$/;"	v
+SAT	build/scripts-3.6/compare_benchmarks.py	/^SAT = 'SAT'$/;"	v
+SOLVER_OPT	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^SOLVER_OPT = dict($/;"	v
+Settings	build/scripts-3.6/evaluate_twinladder.py	/^class Settings:$/;"	c
+Settings	build/scripts-3.6/graph_PCAMNIST_study.py	/^class Settings:$/;"	c
+Test_linear_bounds	build/lib/plnn/dual_network_linear_approximation.py	/^    def Test_linear_bounds(self, net, domain, mask=None, pre_lb_all=None, pre_ub_all=None):$/;"	m	class:LooseDualNetworkApproximation
+UNSAT	build/scripts-3.6/cactus_plot.py	/^UNSAT = 'UNSAT'$/;"	v
+UNSAT	build/scripts-3.6/compare_benchmarks.py	/^UNSAT = 'UNSAT'$/;"	v
+USE_CUDA	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^USE_CUDA = True$/;"	v
+Var	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^from proxlp.variable import Var$/;"	i
+Variable	build/lib/plnn/best_guess_timeout.py	/^from torch.autograd import Variable$/;"	i
+Variable	build/lib/plnn/conv_kwinter.py	/^from torch.autograd import Variable$/;"	i
+Variable	build/scripts-3.6/generate_robustness_nnet.py	/^from torch.autograd import Variable$/;"	i
+Variable	build/scripts-3.6/grb_blackbox_runner.py	/^from torch.autograd import Variable$/;"	i
+Variable	build/scripts-3.6/mip_robustness.py	/^from torch.autograd import Variable$/;"	i
+Variable	build/scripts-3.6/mip_runner.py	/^from torch.autograd import Variable$/;"	i
+Variable	plnn/conv_kwinter_gen.py	/^from torch.autograd import Variable$/;"	i
+Variable	plnn/conv_kwinter_kw.py	/^from torch.autograd import Variable$/;"	i
+View	build/lib/plnn/black_box.py	/^from plnn.modules import View$/;"	i
+View	build/lib/plnn/conv_kwinter.py	/^from plnn.modules import View, Flatten$/;"	i
+View	build/lib/plnn/mip_solver.py	/^from plnn.modules import View$/;"	i
+View	build/lib/plnn/model.py	/^from plnn.modules import View, Flatten$/;"	i
+View	build/lib/plnn/modules.py	/^class View(nn.Module):$/;"	c
+View	build/lib/plnn/network_linear_approximation.py	/^from plnn.modules import View, Flatten$/;"	i
+View	build/scripts-3.6/mip_robustness.py	/^from plnn.modules import View$/;"	i
+View	build/scripts-3.6/mnist_trainer.py	/^from plnn.modules import View$/;"	i
+View	exp_utils/mnist_utils.py	/^from plnn.modules import View, Flatten$/;"	i
+View	exp_utils/model_utils.py	/^from plnn.modules import View, Flatten$/;"	i
+View	plnn/conv_kwinter_gen.py	/^from plnn.modules import View, Flatten$/;"	i
+View	plnn/conv_kwinter_kw.py	/^from plnn.modules import View, Flatten$/;"	i
+View	plnn/mip_solver.py	/^from plnn.modules import View, Flatten$/;"	i
+View	plnn/model.py	/^from plnn.modules import View, Flatten$/;"	i
+View	plnn/modules.py	/^class View(nn.Module):$/;"	c
+View	plnn/network_linear_approximation.py	/^from plnn.modules import View, Flatten$/;"	i
+WIDTH	build/scripts-3.6/evaluate_twinladder.py	/^    WIDTH = "width"$/;"	v	class:Settings
+WIDTH	build/scripts-3.6/graph_PCAMNIST_study.py	/^    WIDTH = "width"$/;"	v	class:Settings
+__eq__	build/lib/plnn/branch_and_bound.py	/^    def __eq__(self, other):$/;"	m	class:CandidateDomain	file:
+__eq__	build/lib/plnn/relu_branch_and_bound.py	/^    def __eq__(self, other):$/;"	m	class:ReLUDomain	file:
+__eq__	build/lib/plnn/relu_conv_any.py	/^    def __eq__(self, other):$/;"	m	class:ReLUDomain	file:
+__eq__	build/lib/plnn/relu_conv_gen.py	/^    def __eq__(self, other):$/;"	m	class:ReLUDomain	file:
+__eq__	plnn/branch_and_bound.py	/^    def __eq__(self, other):$/;"	m	class:CandidateDomain	file:
+__eq__	plnn/relu_conv_any_kw.py	/^    def __eq__(self, other):$/;"	m	class:ReLUDomain	file:
+__eq__	plnn/relu_stability.py	/^    def __eq__(self, other):$/;"	m	class:ReLUDomain	file:
+__init__	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def __init__(self, env_name):$/;"	m	class:Reporter
+__init__	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def __init__(self, exp_name):$/;"	m	class:Benchmarker
+__init__	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def __init__(self, layers):$/;"	m	class:NetworkLP
+__init__	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def __init__(self, n, device=None):$/;"	m	class:PlanetPDMapper
+__init__	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def __init__(self, weights, bias):$/;"	m	class:LinearOp
+__init__	build/lib/plnn/best_guess_timeout.py	/^    def __init__(self, layers):$/;"	m	class:HeuristicNetwork
+__init__	build/lib/plnn/black_box.py	/^    def __init__(self, layers):$/;"	m	class:BlackBoxNetwork
+__init__	build/lib/plnn/branch_and_bound.py	/^    def __init__(self, lb=-float('inf'), ub=float('inf'), dm=None):$/;"	m	class:CandidateDomain
+__init__	build/lib/plnn/conv_kwinter.py	/^    def __init__(self, layers):$/;"	m	class:KWConvNetwork
+__init__	build/lib/plnn/conv_kwinter.py	/^    def __init__(self, layers):$/;"	m	class:LinearizedNetwork
+__init__	build/lib/plnn/dual_network_linear_approximation.py	/^    def __init__(self, layers, x = None, ball_eps = None):$/;"	m	class:LooseDualNetworkApproximation
+__init__	build/lib/plnn/mip_solver.py	/^    def __init__(self, layers):$/;"	m	class:MIPNetwork
+__init__	build/lib/plnn/model.py	/^    def __init__(self, rpx_infile):$/;"	m	class:AcasNetwork
+__init__	build/lib/plnn/modules.py	/^    def __init__(self, out_shape):$/;"	m	class:View
+__init__	build/lib/plnn/network_linear_approximation.py	/^    def __init__(self, layers):$/;"	m	class:AssumptionLinearizedNetwork
+__init__	build/lib/plnn/network_linear_approximation.py	/^    def __init__(self, layers):$/;"	m	class:LinearizedNetwork
+__init__	build/lib/plnn/relu_branch_and_bound.py	/^    def __init__(self, mask, lb=-float('inf'), ub=float('inf')):$/;"	m	class:ReLUDomain
+__init__	build/lib/plnn/relu_conv_any.py	/^    def __init__(self, mask,  lb=-float('inf'), ub=float('inf'), lb_all=None, up_all = None, dual_info = None):$/;"	m	class:ReLUDomain
+__init__	build/lib/plnn/relu_conv_gen.py	/^    def __init__(self, mask,  lb=-float('inf'), ub=float('inf'), lb_all=None, up_all = None, dual_info = None):$/;"	m	class:ReLUDomain
+__init__	build/scripts-3.6/evaluate_twinladder.py	/^    def __init__(self, inp, layers, width, margin):$/;"	m	class:Settings
+__init__	build/scripts-3.6/graph_PCAMNIST_study.py	/^    def __init__(self, inp, width, depth, margin):$/;"	m	class:Settings
+__init__	plnn/branch_and_bound.py	/^    def __init__(self, lb=-float('inf'), ub=float('inf'), dm=None):$/;"	m	class:CandidateDomain
+__init__	plnn/conv_kwinter_gen.py	/^    def __init__(self, layers):$/;"	m	class:KWConvGen
+__init__	plnn/conv_kwinter_gen.py	/^    def __init__(self, layers):$/;"	m	class:LinearizedNetwork
+__init__	plnn/conv_kwinter_kw.py	/^    def __init__(self, layers):$/;"	m	class:KWConvNetwork
+__init__	plnn/conv_kwinter_kw.py	/^    def __init__(self, layers):$/;"	m	class:LinearizedNetwork
+__init__	plnn/dual_network_linear_approximation.py	/^    def __init__(self, layers, x = None, ball_eps = None):$/;"	m	class:LooseDualNetworkApproximation
+__init__	plnn/mip_solver.py	/^    def __init__(self, layers):$/;"	m	class:MIPNetwork
+__init__	plnn/model.py	/^    def __init__(self, rpx_infile):$/;"	m	class:AcasNetwork
+__init__	plnn/modules.py	/^    def __init__(self, out_shape):$/;"	m	class:View
+__init__	plnn/network_linear_approximation.py	/^    def __init__(self, layers):$/;"	m	class:LinearizedNetwork
+__init__	plnn/relu_conv_any_kw.py	/^    def __init__(self, mask,  lb=-float('inf'), ub=float('inf'), lb_all=None, up_all = None):$/;"	m	class:ReLUDomain
+__init__	plnn/relu_stability.py	/^    def __init__(self, lower_bound=-float('inf'), upper_bound=float('inf'), dom_name = None ):$/;"	m	class:ReLUDomain
+__le__	build/lib/plnn/branch_and_bound.py	/^    def __le__(self, other):$/;"	m	class:CandidateDomain	file:
+__le__	build/lib/plnn/relu_branch_and_bound.py	/^    def __le__(self, other):$/;"	m	class:ReLUDomain	file:
+__le__	build/lib/plnn/relu_conv_any.py	/^    def __le__(self, other):$/;"	m	class:ReLUDomain	file:
+__le__	build/lib/plnn/relu_conv_gen.py	/^    def __le__(self, other):$/;"	m	class:ReLUDomain	file:
+__le__	plnn/branch_and_bound.py	/^    def __le__(self, other):$/;"	m	class:CandidateDomain	file:
+__le__	plnn/relu_conv_any_kw.py	/^    def __le__(self, other):$/;"	m	class:ReLUDomain	file:
+__le__	plnn/relu_stability.py	/^    def __le__(self, other):$/;"	m	class:ReLUDomain	file:
+__lt__	build/lib/plnn/branch_and_bound.py	/^    def __lt__(self, other):$/;"	m	class:CandidateDomain	file:
+__lt__	build/lib/plnn/relu_branch_and_bound.py	/^    def __lt__(self, other):$/;"	m	class:ReLUDomain	file:
+__lt__	build/lib/plnn/relu_conv_any.py	/^    def __lt__(self, other):$/;"	m	class:ReLUDomain	file:
+__lt__	build/lib/plnn/relu_conv_gen.py	/^    def __lt__(self, other):$/;"	m	class:ReLUDomain	file:
+__lt__	plnn/branch_and_bound.py	/^    def __lt__(self, other):$/;"	m	class:CandidateDomain	file:
+__lt__	plnn/relu_conv_any_kw.py	/^    def __lt__(self, other):$/;"	m	class:ReLUDomain	file:
+__lt__	plnn/relu_stability.py	/^    def __lt__(self, other):$/;"	m	class:ReLUDomain	file:
+__repr__	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def __repr__(self):$/;"	m	class:LinearOp	file:
+__repr__	build/lib/plnn/branch_and_bound.py	/^    def __repr__(self):$/;"	m	class:CandidateDomain	file:
+__repr__	build/scripts-3.6/evaluate_twinladder.py	/^    def __repr__(self):$/;"	m	class:Settings	file:
+__repr__	plnn/branch_and_bound.py	/^    def __repr__(self):$/;"	m	class:CandidateDomain	file:
+add_domain	build/lib/plnn/branch_and_bound.py	/^def add_domain(candidate, domains):$/;"	f
+add_domain	build/lib/plnn/relu_branch_and_bound.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+add_domain	build/lib/plnn/relu_conv_any.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+add_domain	build/lib/plnn/relu_conv_gen.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+add_domain	plnn/branch_and_bound.py	/^def add_domain(candidate, domains):$/;"	f
+add_domain	plnn/relu_conv_any_kw.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+add_domain	plnn/relu_stability.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+add_prerescaling	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def add_prerescaling(self, pre_scales):$/;"	m	class:LinearOp
+add_properties	exp_utils/model_utils.py	/^def add_properties(model, true_label, lb_abs = -1000, ret_ls = False):$/;"	f
+add_single_prop	exp_utils/model_utils.py	/^def add_single_prop(layers, gt, cls):$/;"	f
+area	build/lib/plnn/branch_and_bound.py	/^    def area(self):$/;"	m	class:CandidateDomain
+area	plnn/branch_and_bound.py	/^    def area(self):$/;"	m	class:CandidateDomain
+argmax	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def argmax(self):$/;"	m	class:PlanetDualVar
+argmax_v2	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def argmax_v2(self):$/;"	m	class:PlanetDualVar
+argparse	build/scripts-3.6/acas_2_rlv.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/bab_runner.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/banban_bab_runner.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/cactus_plot.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/compare_benchmarks.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/compare_relaxations.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/evaluate_twinladder.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/generate_robustness_nnet.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/generate_twinladder_net.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/graph_PCAMNIST_study.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/grb_blackbox_runner.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/heuristic_runner.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/make_bound_rlv.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/memtime_wrapper.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/mip_robustness.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/mip_runner.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/mip_tuner.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/mnist_trainer.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/relubab_runner.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/removeMaxPoolRLV.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/rlv_2_nnet.py	/^import argparse$/;"	i
+argparse	build/scripts-3.6/summarize_binary_search.py	/^import argparse$/;"	i
+argparse	exp_utils/mnist_utils.py	/^import argparse$/;"	i
+argparse	med_experiments/med_bab_mip.py	/^import argparse$/;"	i
+argparse	med_experiments/stability_analysis.py	/^import argparse$/;"	i
+assert_network_equivalence	build/lib/plnn/model.py	/^def assert_network_equivalence(net1, net2, domain):$/;"	f
+assert_network_equivalence	plnn/model.py	/^def assert_network_equivalence(net1, net2, domain):$/;"	f
+assert_network_greater_than	build/scripts-3.6/generate_twinladder_net.py	/^def assert_network_greater_than(net, domain, min_theoretical):$/;"	f
+author	setup.py	/^    author='Rudy Bunel',$/;"	v
+author_email	setup.py	/^    author_email='rudy@robots.ox.ac.uk',$/;"	v
+average_runtime	build/scripts-3.6/compare_benchmarks.py	/^def average_runtime(d):$/;"	f
+bab	build/lib/plnn/branch_and_bound.py	/^def bab(net, domain, eps=1e-3, decision_bound=None, smart_branching=None):$/;"	f
+bab	build/scripts-3.6/bab_runner.py	/^from plnn.branch_and_bound import bab$/;"	i
+bab	build/scripts-3.6/banban_bab_runner.py	/^from plnn.branch_and_bound import bab$/;"	i
+bab	med_experiments/med_bab_mip.py	/^def bab(verif_layers, domain, x, eps_temp, branching,linear, model_name, bounded, return_dict):$/;"	f
+bab	plnn/branch_and_bound.py	/^def bab(net, domain, eps=1e-3, decision_bound=None, smart_branching=None):$/;"	f
+backward	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def backward(self, out):$/;"	m	class:LinearOp
+benchmark	build/scripts-3.6/compare_relaxations.py	/^def benchmark(rlv_infile, nb_splits, shrink_factor):$/;"	f
+bisect	build/lib/plnn/branch_and_bound.py	/^import bisect$/;"	i
+bisect	plnn/branch_and_bound.py	/^import bisect$/;"	i
+bounds_analysis	build/lib/plnn/relu_conv_any.py	/^from plnn.bounds_analysis import bounds_analysis$/;"	i
+box_split	build/lib/plnn/branch_and_bound.py	/^def box_split(domain):$/;"	f
+box_split	build/scripts-3.6/compare_relaxations.py	/^from plnn.branch_and_bound import box_split$/;"	i
+box_split	plnn/branch_and_bound.py	/^def box_split(domain):$/;"	f
+build_GT_table	build/scripts-3.6/cactus_plot.py	/^from compare_benchmarks import load_bench_results, build_GT_table, remove_non_common$/;"	i
+build_GT_table	build/scripts-3.6/compare_benchmarks.py	/^def build_GT_table(all_results, all_unsat=False):$/;"	f
+build_approximation	build/lib/plnn/dual_network_linear_approximation.py	/^    def build_approximation(self, domains, mask =None):$/;"	m	class:LooseDualNetworkApproximation
+build_approximation	plnn/dual_network_linear_approximation.py	/^    def build_approximation(self, domains):$/;"	m	class:LooseDualNetworkApproximation
+build_approximation_v2	plnn/dual_network_linear_approximation.py	/^    def build_approximation_v2(self, domain):$/;"	m	class:LooseDualNetworkApproximation
+build_model_using_bounds	plnn/network_linear_approximation.py	/^    def build_model_using_bounds(self, input_domain, intermediate_bounds):$/;"	m	class:LinearizedNetwork
+build_the_model	build/lib/plnn/conv_kwinter.py	/^    def build_the_model(self, input_domain, x, ball_eps):$/;"	m	class:KWConvNetwork
+build_the_model	plnn/conv_kwinter_gen.py	/^    def build_the_model(self, input_domain, x, ball_eps, bounded):$/;"	m	class:KWConvGen
+build_the_model	plnn/conv_kwinter_kw.py	/^    def build_the_model(self, input_domain, x, ball_eps, bounded):$/;"	m	class:KWConvNetwork
+check_feasibility	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def check_feasibility(self):$/;"	m	class:PlanetDualVar
+check_optimization_success	build/lib/plnn/conv_kwinter.py	/^    def check_optimization_success(self, introduced_constrs=None):$/;"	m	class:KWConvNetwork
+check_optimization_success	build/lib/plnn/network_linear_approximation.py	/^    def check_optimization_success(self):$/;"	m	class:AssumptionLinearizedNetwork
+check_optimization_success	plnn/conv_kwinter_gen.py	/^    def check_optimization_success(self, introduced_constrs_all=None):$/;"	m	class:KWConvGen
+check_optimization_success	plnn/conv_kwinter_kw.py	/^    def check_optimization_success(self, introduced_constrs=None):$/;"	m	class:KWConvNetwork
+choose_node_conv	build/lib/plnn/kw_score_conv.py	/^def choose_node_conv(lower_bounds,upper_bounds, orig_mask, layers, pre_relu_indices, icp_score_counter, gt=False):$/;"	f
+choose_node_conv	build/lib/plnn/relu_conv_any.py	/^from plnn.kw_score_conv import choose_node_conv$/;"	i
+choose_node_conv	build/lib/plnn/relu_conv_gen.py	/^from plnn.kw_score_conv import choose_node_conv$/;"	i
+choose_node_conv	plnn/kw_score_conv.py	/^def choose_node_conv(lower_bounds,upper_bounds, orig_mask, layers, pre_relu_indices, icp_score_counter, random_order, sparsest_layer, decision_threshold=0.001, gt=False):$/;"	f
+choose_node_conv	plnn/relu_conv_any_kw.py	/^from plnn.kw_score_conv import choose_node_conv$/;"	i
+choose_node_conv	plnn/relu_stability.py	/^from plnn.kw_score_conv import choose_node_conv, choose_node_perturbed$/;"	i
+choose_node_perturbed	plnn/kw_score_conv.py	/^def choose_node_perturbed(lower_bounds,upper_bounds, orig_mask, layers, pre_relu_indices, icp_score_counter, random_order, sparsest_layer, decision_threshold=0.001, gt=False):$/;"	f
+choose_node_perturbed	plnn/relu_stability.py	/^from plnn.kw_score_conv import choose_node_conv, choose_node_perturbed$/;"	i
+cifar_model	exp_utils/model_utils.py	/^def cifar_model():$/;"	f
+cifar_model	plnn/model.py	/^def cifar_model():$/;"	f
+cifar_model_deep	exp_utils/model_utils.py	/^def cifar_model_deep():$/;"	f
+cifar_model_large	plnn/model.py	/^def cifar_model_large():$/;"	f
+cifar_model_m1	exp_utils/model_utils.py	/^def cifar_model_m1(): $/;"	f
+cifar_model_m2	exp_utils/model_utils.py	/^def cifar_model_m2():$/;"	f
+classifiers	setup.py	/^    classifiers=[$/;"	v
+compute_lower_bound	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def compute_lower_bound(self, domain):$/;"	m	class:NetworkLP
+compute_lower_bound	build/lib/plnn/network_linear_approximation.py	/^    def compute_lower_bound(self, domain):$/;"	m	class:LinearizedNetwork
+compute_lower_bound	plnn/network_linear_approximation.py	/^    def compute_lower_bound(self, node=(-1, None), upper_bound=False,$/;"	m	class:LinearizedNetwork
+compute_ratio	build/lib/plnn/kw_score_conv.py	/^def compute_ratio(lower_bound, upper_bound):$/;"	f
+compute_ratio	plnn/kw_score_conv.py	/^def compute_ratio(lower_bound, upper_bound):$/;"	f
+copy	build/lib/plnn/relu_branch_and_bound.py	/^import copy$/;"	i
+copy	build/lib/plnn/relu_conv_any.py	/^import copy$/;"	i
+copy	build/lib/plnn/relu_conv_gen.py	/^import copy$/;"	i
+copy	build/scripts-3.6/mnist_trainer.py	/^import copy$/;"	i
+copy	exp_utils/mnist_utils.py	/^import copy$/;"	i
+copy	exp_utils/model_utils.py	/^import copy$/;"	i
+copy	plnn/relu_conv_any_kw.py	/^import copy$/;"	i
+copy	plnn/relu_stability.py	/^import copy$/;"	i
+count_error	build/scripts-3.6/compare_benchmarks.py	/^def count_error(d, gt_map):$/;"	f
+count_fails	build/scripts-3.6/compare_benchmarks.py	/^def count_fails(d, gt_map):$/;"	f
+datasets	exp_utils/model_utils.py	/^        import torchvision.datasets as datasets$/;"	i
+datasets	exp_utils/model_utils.py	/^    import torchvision.datasets as datasets$/;"	i
+datasets	med_experiments/med_bab_mip.py	/^import torchvision.datasets as datasets$/;"	i
+default_depth	build/scripts-3.6/graph_PCAMNIST_study.py	/^default_depth = 4$/;"	v
+default_inp	build/scripts-3.6/graph_PCAMNIST_study.py	/^default_inp = 10$/;"	v
+default_margin	build/scripts-3.6/graph_PCAMNIST_study.py	/^default_margin = 1000$/;"	v
+default_width	build/scripts-3.6/graph_PCAMNIST_study.py	/^default_width = 25$/;"	v
+defaultdict	build/lib/plnn/model.py	/^from collections import Counter, defaultdict$/;"	i
+defaultdict	plnn/model.py	/^from collections import Counter, defaultdict$/;"	i
+define_linear_approximation	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def define_linear_approximation(self, input_domain):$/;"	m	class:NetworkLP
+define_linear_approximation	build/lib/plnn/network_linear_approximation.py	/^    def define_linear_approximation(self, input_domain):$/;"	m	class:LinearizedNetwork
+define_linear_approximation	build/lib/plnn/network_linear_approximation.py	/^    def define_linear_approximation(self, input_domain, relu_mask):$/;"	m	class:AssumptionLinearizedNetwork
+define_linear_approximation	plnn/network_linear_approximation.py	/^    def define_linear_approximation(self, input_domain, force_optim=False):$/;"	m	class:LinearizedNetwork
+description	setup.py	/^    description='Verification of Piecewise Linear Neural Networks',$/;"	v
+do_benchmark	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def do_benchmark(self, weights, obj_layer,$/;"	m	class:Benchmarker
+do_interval_analysis	build/lib/plnn/mip_solver.py	/^    def do_interval_analysis(self, inp_domain):$/;"	m	class:MIPNetwork
+do_interval_analysis	plnn/mip_solver.py	/^    def do_interval_analysis(self, inp_domain):$/;"	m	class:MIPNetwork
+dom_path	plnn/relu_stability.py	/^dom_path = '\/home\/jodie\/PLNN\/PLNN-verification-journal\/cifar_kw_m2_train_data\/'$/;"	v
+dom_to_branch	exp_utils/plnn_utils.py	/^def dom_to_branch(fname, dom_name, gt_lb_relu, dec):$/;"	f
+dom_to_branch	plnn/relu_stability.py	/^from exp_utils.plnn_utils import dump_domain, dom_to_branch$/;"	i
+done	build/scripts-3.6/memtime_wrapper.py	/^    def done(cmd, success, exit_code):$/;"	f	function:main
+dual_change_check	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    dual_change_check=False,$/;"	v
+dual_change_threshold	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    dual_change_threshold=1e-3,$/;"	v
+dump_domain	exp_utils/plnn_utils.py	/^def dump_domain(fname,$/;"	f
+dump_domain	plnn/relu_stability.py	/^from exp_utils.plnn_utils import dump_domain, dom_to_branch$/;"	i
+dump_nnet	build/lib/plnn/model.py	/^def dump_nnet(nnet_outfile, layers, domain):$/;"	f
+dump_nnet	build/scripts-3.6/generate_robustness_nnet.py	/^from plnn.model import dump_nnet, load_mat_network$/;"	i
+dump_nnet	build/scripts-3.6/generate_twinladder_net.py	/^from plnn.model import dump_nnet, dump_rlv, simplify_network$/;"	i
+dump_nnet	build/scripts-3.6/rlv_2_nnet.py	/^from plnn.model import load_rlv, dump_nnet$/;"	i
+dump_nnet	plnn/model.py	/^def dump_nnet(nnet_outfile, layers, domain):$/;"	f
+dump_problem	build/lib/dataset_tools/utils.py	/^def dump_problem(fname,$/;"	f
+dump_problem	exp_utils/plnn_utils.py	/^def dump_problem(fname,$/;"	f
+dump_relu_problem	build/lib/dataset_tools/utils.py	/^def dump_relu_problem(fname,$/;"	f
+dump_relu_problem	build/lib/plnn/relu_conv_gen.py	/^from dataset_tools.utils import dump_relu_problem$/;"	i
+dump_relu_problem	exp_utils/plnn_utils.py	/^def dump_relu_problem(fname,$/;"	f
+dump_rlv	build/lib/plnn/model.py	/^def dump_rlv(rlv_outfile, layers, domain, transform_maxpool=False):$/;"	f
+dump_rlv	build/scripts-3.6/generate_twinladder_net.py	/^from plnn.model import dump_nnet, dump_rlv, simplify_network$/;"	i
+dump_rlv	build/scripts-3.6/make_bound_rlv.py	/^from plnn.model import dump_rlv, load_rlv, simplify_network$/;"	i
+dump_rlv	build/scripts-3.6/mnist_trainer.py	/^from plnn.model import simplify_network, dump_rlv$/;"	i
+dump_rlv	build/scripts-3.6/removeMaxPoolRLV.py	/^from plnn.model import load_rlv, dump_rlv$/;"	i
+dump_rlv	exp_utils/mnist_utils.py	/^from plnn.model import simplify_network, dump_rlv$/;"	i
+dump_rlv	plnn/model.py	/^def dump_rlv(rlv_outfile, layers, domain, transform_maxpool=False):$/;"	f
+early_stop_cb	build/lib/plnn/black_box.py	/^            def early_stop_cb(model, where):$/;"	f	function:BlackBoxNetwork.solve
+early_stop_cb	build/lib/plnn/mip_solver.py	/^            def early_stop_cb(model, where):$/;"	f	function:MIPNetwork.solve
+early_stop_cb	plnn/mip_solver.py	/^            def early_stop_cb(model, where):$/;"	f	function:MIPNetwork.solve
+embed	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^            import IPython; IPython.embed();$/;"	i
+embed	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^        import IPython; IPython.embed();$/;"	i
+embed	build/lib/plnn/model.py	/^        import IPython; IPython.embed();$/;"	i
+embed	build/scripts-3.6/generate_robustness_nnet.py	/^    import IPython; IPython.embed();$/;"	i
+end_run	build/scripts-3.6/memtime_wrapper.py	/^def end_run(path_to_out, result_str, time_spent):$/;"	f
+error_tol	build/scripts-3.6/generate_twinladder_net.py	/^error_tol = 1e-5$/;"	v
+exit	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^            import sys; sys.exit()$/;"	i
+exit	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^        import sys; sys.exit()$/;"	i
+exit	build/lib/plnn/model.py	/^        import sys; sys.exit()$/;"	i
+exit	build/scripts-3.6/generate_robustness_nnet.py	/^    import sys; sys.exit()$/;"	i
+extract_re	build/scripts-3.6/evaluate_twinladder.py	/^    extract_re = re.compile('-(?P<nb_inp>.+)_inp-(?P<nb_lay>.+)_layers-(?P<width>.+)_width-(?P<margin>.+)_margin')$/;"	v	class:Settings
+extract_re	build/scripts-3.6/graph_PCAMNIST_study.py	/^    extract_re = re.compile('--(?P<nb_inp>.+)_inp'$/;"	v	class:Settings
+extras_require	setup.py	/^    extras_require={$/;"	v
+fench_dual_check	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    fench_dual_check=True,$/;"	v
+fench_dual_threshold	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    fench_dual_threshold=1,$/;"	v
+filter_useless_curves	build/scripts-3.6/evaluate_twinladder.py	/^def filter_useless_curves(all_curves):$/;"	f
+find_packages	setup.py	/^from setuptools import setup, find_packages$/;"	i
+flatten_layers	build/scripts-3.6/mnist_trainer.py	/^def flatten_layers(layer_list):$/;"	f
+flatten_layers	exp_utils/mnist_utils.py	/^def flatten_layers(layer_list, input_shape):$/;"	f
+flatten_layers	exp_utils/model_utils.py	/^from exp_utils.mnist_utils import flatten_layers$/;"	i
+font	build/scripts-3.6/cactus_plot.py	/^font = {'size': 25}$/;"	v
+font	build/scripts-3.6/compare_relaxations.py	/^font = {'size': 26}$/;"	v
+font	build/scripts-3.6/graph_PCAMNIST_study.py	/^font = {'size': 28}$/;"	v
+forward	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def forward(self, inp):$/;"	m	class:LinearOp
+forward	build/lib/plnn/modules.py	/^    def forward(self, inp):$/;"	m	class:View
+forward	build/lib/plnn/modules.py	/^    def forward(self, x):$/;"	m	class:Flatten
+forward	plnn/modules.py	/^    def forward(self, inp):$/;"	m	class:View
+forward	plnn/modules.py	/^    def forward(self, x):$/;"	m	class:Flatten
+from_name	build/scripts-3.6/evaluate_twinladder.py	/^    def from_name(cls, descr):$/;"	m	class:Settings
+from_name	build/scripts-3.6/graph_PCAMNIST_study.py	/^    def from_name(cls, descr):$/;"	m	class:Settings
+functools	build/scripts-3.6/mnist_trainer.py	/^import functools$/;"	i
+functools	exp_utils/mnist_utils.py	/^import functools$/;"	i
+g	build/lib/plnn/branch_and_bound.py	/^    def g(*args, **kwargs):$/;"	f	function:no_grad
+g	plnn/branch_and_bound.py	/^    def g(*args, **kwargs):$/;"	f	function:no_grad
+gamma_threshold	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    gamma_threshold=1e-3,$/;"	v
+gather	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def gather(self, unrestricted):$/;"	m	class:PlanetPDMapper
+gather_fixed_along_variation	build/scripts-3.6/evaluate_twinladder.py	/^def gather_fixed_along_variation(results_dir, variation):$/;"	f
+generate_etas	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^def generate_etas(weights,$/;"	f
+generate_network	build/scripts-3.6/generate_twinladder_net.py	/^def generate_network(ladder_dimension, margin):$/;"	f
+get_bounds	plnn/dual_network_linear_approximation.py	/^    def get_bounds(self, domains):$/;"	m	class:LooseDualNetworkApproximation
+get_eta	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def get_eta(self, params):$/;"	m	class:PlanetProblem
+get_initial_mask	build/lib/plnn/network_linear_approximation.py	/^    def get_initial_mask(self):$/;"	m	class:AssumptionLinearizedNetwork
+get_intermediate_bounds	build/lib/plnn/dual_network_linear_approximation.py	/^    def get_intermediate_bounds(self, domain, mask =None, dual=None):$/;"	m	class:LooseDualNetworkApproximation
+get_intermediate_bounds	plnn/dual_network_linear_approximation.py	/^    def get_intermediate_bounds(self, domain):$/;"	m	class:LooseDualNetworkApproximation
+get_lower_bound	build/lib/plnn/conv_kwinter.py	/^    def get_lower_bound(self, relu_mask,  pre_lbs, pre_ubs, decision, choice, dual_info):$/;"	m	class:KWConvNetwork
+get_lower_bound	build/lib/plnn/network_linear_approximation.py	/^    def get_lower_bound(self, domain):$/;"	m	class:LinearizedNetwork
+get_lower_bound	build/lib/plnn/network_linear_approximation.py	/^    def get_lower_bound(self, domain, relu_mask):$/;"	m	class:AssumptionLinearizedNetwork
+get_lower_bound	plnn/conv_kwinter_gen.py	/^    def get_lower_bound(self, relu_mask,  pre_lbs, pre_ubs, decision, choice):$/;"	m	class:KWConvGen
+get_lower_bound	plnn/conv_kwinter_kw.py	/^    def get_lower_bound(self, relu_mask,  pre_lbs, pre_ubs, decision, choice):$/;"	m	class:KWConvNetwork
+get_lower_bound	plnn/network_linear_approximation.py	/^    def get_lower_bound(self, domain, force_optim=False):$/;"	m	class:LinearizedNetwork
+get_lower_bounds	build/lib/plnn/dual_network_linear_approximation.py	/^    def get_lower_bounds(self, domains):$/;"	m	class:LooseDualNetworkApproximation
+get_lower_bounds	plnn/dual_network_linear_approximation.py	/^    def get_lower_bounds(self, domains):$/;"	m	class:LooseDualNetworkApproximation
+get_upper_bound	build/lib/plnn/conv_kwinter.py	/^    get_upper_bound = get_upper_bound_pgd$/;"	v	class:LinearizedNetwork
+get_upper_bound	build/lib/plnn/network_linear_approximation.py	/^    get_upper_bound = get_upper_bound_random$/;"	v	class:LinearizedNetwork
+get_upper_bound	plnn/conv_kwinter_gen.py	/^    get_upper_bound = get_upper_bound_pgd$/;"	v	class:LinearizedNetwork
+get_upper_bound	plnn/conv_kwinter_kw.py	/^    get_upper_bound = get_upper_bound_pgd$/;"	v	class:LinearizedNetwork
+get_upper_bound	plnn/network_linear_approximation.py	/^    get_upper_bound = get_upper_bound_random$/;"	v	class:LinearizedNetwork
+get_upper_bound_pgd	build/lib/plnn/conv_kwinter.py	/^    def get_upper_bound_pgd(self, domain_lb, domain_ub, ub_point):$/;"	m	class:LinearizedNetwork
+get_upper_bound_pgd	build/lib/plnn/network_linear_approximation.py	/^    def get_upper_bound_pgd(self, domain):$/;"	m	class:LinearizedNetwork
+get_upper_bound_pgd	plnn/conv_kwinter_gen.py	/^    def get_upper_bound_pgd(self, domain_lb, domain_ub, ub_point):$/;"	m	class:LinearizedNetwork
+get_upper_bound_pgd	plnn/conv_kwinter_kw.py	/^    def get_upper_bound_pgd(self, domain_lb, domain_ub, ub_point):$/;"	m	class:LinearizedNetwork
+get_upper_bound_pgd	plnn/network_linear_approximation.py	/^    def get_upper_bound_pgd(self, domain):$/;"	m	class:LinearizedNetwork
+get_upper_bound_random	build/lib/plnn/conv_kwinter.py	/^    def get_upper_bound_random(self, domain):$/;"	m	class:LinearizedNetwork
+get_upper_bound_random	build/lib/plnn/network_linear_approximation.py	/^    def get_upper_bound_random(self, domain):$/;"	m	class:LinearizedNetwork
+get_upper_bound_random	plnn/conv_kwinter_gen.py	/^    def get_upper_bound_random(self, domain):$/;"	m	class:LinearizedNetwork
+get_upper_bound_random	plnn/conv_kwinter_kw.py	/^    def get_upper_bound_random(self, domain):$/;"	m	class:LinearizedNetwork
+get_upper_bound_random	plnn/network_linear_approximation.py	/^    def get_upper_bound_random(self, domain):$/;"	m	class:LinearizedNetwork
+glob	build/scripts-3.6/compare_benchmarks.py	/^import glob$/;"	i
+glob	exp_utils/plnn_utils.py	/^import glob$/;"	i
+glob	med_experiments/stability_analysis.py	/^import glob$/;"	i
+glob	plnn/relu_stability.py	/^import glob$/;"	i
+glob	setup.py	/^import glob$/;"	i
+grb	build/lib/plnn/black_box.py	/^import gurobipy as grb$/;"	i
+grb	build/lib/plnn/conv_kwinter.py	/^import gurobipy as grb$/;"	i
+grb	build/lib/plnn/mip_solver.py	/^import gurobipy as grb$/;"	i
+grb	build/lib/plnn/network_linear_approximation.py	/^import gurobipy as grb$/;"	i
+grb	plnn/conv_kwinter_gen.py	/^import gurobipy as grb$/;"	i
+grb	plnn/conv_kwinter_kw.py	/^import gurobipy as grb$/;"	i
+grb	plnn/mip_solver.py	/^import gurobipy as grb$/;"	i
+grb	plnn/network_linear_approximation.py	/^import gurobipy as grb$/;"	i
+gt_split	build/lib/plnn/relu_conv_gen.py	/^def gt_split(net, candidate_domain, kw_indices, nb_visited_states, dump_trace):$/;"	f
+gt_split	plnn/relu_stability.py	/^def gt_split(net, dump_trace, dom_name, nb_visited_states,  mask, lower_bounds, upper_bounds, global_lb, selected_indices, criteria):$/;"	f
+gt_split_kw	plnn/relu_stability.py	/^def gt_split_kw(net, candidate_domain, kw_decision, kw_indices, nb_visited_states, dump_trace):$/;"	f
+guess_lower_bound	build/lib/plnn/best_guess_timeout.py	/^    def guess_lower_bound(self, domain, timeout, noprogress_timeout, early_stop=False, use_cuda=False):$/;"	m	class:HeuristicNetwork
+gurobi	med_experiments/med_bab_mip.py	/^def gurobi(verif_layers, domain,  return_dict):$/;"	f
+here	setup.py	/^here = path.abspath(path.dirname(__file__))$/;"	v
+init_kw_bounds	build/lib/plnn/dual_network_linear_approximation.py	/^    def init_kw_bounds(self, pre_lb_all=None, pre_ub_all=None, decision=None, choice=None):$/;"	m	class:LooseDualNetworkApproximation
+init_kw_bounds	plnn/dual_network_linear_approximation.py	/^    def init_kw_bounds(self, bounded, pre_lb_all=None, pre_ub_all=None, decision=None, choice=None):$/;"	m	class:LooseDualNetworkApproximation
+init_kw_bounds_full	build/lib/plnn/dual_network_linear_approximation.py	/^    def init_kw_bounds_full(self, domain):$/;"	m	class:LooseDualNetworkApproximation
+init_kw_bounds_full	plnn/dual_network_linear_approximation.py	/^    def init_kw_bounds_full(self, domain):$/;"	m	class:LooseDualNetworkApproximation
+init_kw_debug	plnn/dual_network_linear_approximation.py	/^    def init_kw_debug(self, bounded, pre_lb_all=None, pre_ub_all=None, decision=None, choice=None):$/;"	m	class:LooseDualNetworkApproximation
+init_mapper	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def init_mapper(self):$/;"	m	class:PlanetPrimalVar
+init_parameters	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def init_parameters(self, weights, obj_layer,$/;"	m	class:PlanetProblem
+init_tensors	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def init_tensors(self):$/;"	m	class:PlanetDualVar
+init_tensors	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def init_tensors(self):$/;"	m	class:PlanetPrimalVar
+int_primal_eval	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    int_primal_eval=False,$/;"	v
+io	build/lib/plnn/model.py	/^import scipy.io$/;"	i
+io	plnn/model.py	/^import scipy.io$/;"	i
+itertools	build/scripts-3.6/compare_benchmarks.py	/^import itertools$/;"	i
+json	build/scripts-3.6/mip_robustness.py	/^import json$/;"	i
+json	build/scripts-3.6/mnist_trainer.py	/^import json$/;"	i
+json	build/scripts-3.6/summarize_binary_search.py	/^import json$/;"	i
+json	exp_utils/mnist_utils.py	/^import json$/;"	i
+json	exp_utils/model_utils.py	/^import json$/;"	i
+keep_running	build/scripts-3.6/memtime_wrapper.py	/^keep_running = True$/;"	v
+kw_split	build/lib/plnn/relu_conv_any.py	/^def kw_split(net, candidate_domain):$/;"	f
+kw_split	build/lib/plnn/relu_conv_gen.py	/^def kw_split(net, candidate_domain):$/;"	f
+kw_split	plnn/relu_conv_any_kw.py	/^def kw_split(net, candidate_domain):$/;"	f
+kw_split	plnn/relu_stability.py	/^def kw_split(net, candidate_domain):$/;"	f
+large_cifar_model	exp_utils/model_utils.py	/^def large_cifar_model(): $/;"	f
+last_layer_objective	build/lib/plnn/dual_network_linear_approximation.py	/^    def last_layer_objective(self, c, dual_net, last_layer):$/;"	m	class:LooseDualNetworkApproximation
+last_layer_objective	plnn/dual_network_linear_approximation.py	/^    def last_layer_objective(self, c, dual_net, last_layer):$/;"	m	class:LooseDualNetworkApproximation
+last_layer_objective_debug	plnn/dual_network_linear_approximation.py	/^    def last_layer_objective_debug(self, c, dual_net, last_layer):$/;"	m	class:LooseDualNetworkApproximation
+license	setup.py	/^    license='MIT',$/;"	v
+load_1to1_exp	exp_utils/model_utils.py	/^def load_1to1_exp(model, idx, test = None, mnist_test = None):$/;"	f
+load_1to1_exp	med_experiments/med_bab_mip.py	/^from exp_utils.model_utils import load_cifar_1to1_exp, load_1to1_exp$/;"	i
+load_1to1_exp	med_experiments/stability_analysis.py	/^from exp_utils.model_utils import load_med_exp, load_1to1_exp, load_cifar_1to1_exp$/;"	i
+load_PCA_mnist	build/scripts-3.6/mnist_trainer.py	/^def load_PCA_mnist():$/;"	f
+load_PCA_mnist	exp_utils/mnist_utils.py	/^def load_PCA_mnist():$/;"	f
+load_adversarial_problem	build/lib/plnn/model.py	/^def load_adversarial_problem(filename, cls):$/;"	f
+load_adversarial_problem	build/scripts-3.6/banban_bab_runner.py	/^from plnn.model import load_and_simplify, load_adversarial_problem$/;"	i
+load_adversarial_problem	plnn/model.py	/^def load_adversarial_problem(filename, cls):$/;"	f
+load_and_simplify	build/lib/plnn/model.py	/^def load_and_simplify(rlv_file, net_cls):$/;"	f
+load_and_simplify	build/scripts-3.6/bab_runner.py	/^from plnn.model import load_and_simplify$/;"	i
+load_and_simplify	build/scripts-3.6/banban_bab_runner.py	/^from plnn.model import load_and_simplify, load_adversarial_problem$/;"	i
+load_and_simplify	build/scripts-3.6/compare_relaxations.py	/^from plnn.model import load_and_simplify$/;"	i
+load_and_simplify	build/scripts-3.6/grb_blackbox_runner.py	/^from plnn.model import load_and_simplify$/;"	i
+load_and_simplify	build/scripts-3.6/heuristic_runner.py	/^from plnn.model import load_and_simplify$/;"	i
+load_and_simplify	build/scripts-3.6/mip_runner.py	/^from plnn.model import load_and_simplify$/;"	i
+load_and_simplify	build/scripts-3.6/mip_tuner.py	/^from plnn.model import load_and_simplify$/;"	i
+load_and_simplify	build/scripts-3.6/relubab_runner.py	/^from plnn.model import load_and_simplify$/;"	i
+load_and_simplify	plnn/model.py	/^def load_and_simplify(rlv_file, net_cls):$/;"	f
+load_bench_results	build/scripts-3.6/cactus_plot.py	/^from compare_benchmarks import load_bench_results, build_GT_table, remove_non_common$/;"	i
+load_bench_results	build/scripts-3.6/compare_benchmarks.py	/^def load_bench_results(bench_folder):$/;"	f
+load_bench_results	build/scripts-3.6/evaluate_twinladder.py	/^from tools.compare_benchmarks import load_bench_results$/;"	i
+load_bench_results	build/scripts-3.6/graph_PCAMNIST_study.py	/^from tools.compare_benchmarks import load_bench_results$/;"	i
+load_cifar_1to1_exp	exp_utils/model_utils.py	/^def load_cifar_1to1_exp(model, idx, test = None, cifar_test = None):$/;"	f
+load_cifar_1to1_exp	med_experiments/med_bab_mip.py	/^from exp_utils.model_utils import load_cifar_1to1_exp, load_1to1_exp$/;"	i
+load_cifar_1to1_exp	med_experiments/stability_analysis.py	/^from exp_utils.model_utils import load_med_exp, load_1to1_exp, load_cifar_1to1_exp$/;"	i
+load_cifar_1to1_layers_dc	exp_utils/model_utils.py	/^def load_cifar_1to1_layers_dc(model):$/;"	f
+load_cifar_madry_exp	exp_utils/model_utils.py	/^def load_cifar_madry_exp(idx, model_name,  lb_abs=-1000):$/;"	f
+load_large_exp	exp_utils/model_utils.py	/^def load_large_exp(idx, lb_abs=-1000, model=None, mnist_test = None, gurobi=False):$/;"	f
+load_mat_network	build/lib/plnn/model.py	/^def load_mat_network(mat_file):$/;"	f
+load_mat_network	build/scripts-3.6/generate_robustness_nnet.py	/^from plnn.model import dump_nnet, load_mat_network$/;"	i
+load_mat_network	build/scripts-3.6/mip_robustness.py	/^from plnn.model import load_mat_network$/;"	i
+load_mat_network	plnn/model.py	/^def load_mat_network(mat_file):$/;"	f
+load_med_exp	exp_utils/model_utils.py	/^def load_med_exp(idx, lb_abs=-1000, model=None, mnist_test = None, gurobi=False):$/;"	f
+load_med_exp	med_experiments/stability_analysis.py	/^from exp_utils.model_utils import load_med_exp, load_1to1_exp, load_cifar_1to1_exp$/;"	i
+load_med_model	exp_utils/model_utils.py	/^def load_med_model(true_label, lb_abs= -1000, model=None):$/;"	f
+load_mini_exp	exp_utils/model_utils.py	/^def load_mini_exp():$/;"	f
+load_mnist	build/scripts-3.6/mnist_trainer.py	/^def load_mnist():$/;"	f
+load_mnist	exp_utils/mnist_utils.py	/^def load_mnist():$/;"	f
+load_mnist_1to1_layers_dc	exp_utils/model_utils.py	/^def load_mnist_1to1_layers_dc(model):$/;"	f
+load_rlv	build/lib/plnn/model.py	/^def load_rlv(rlv_infile):$/;"	f
+load_rlv	build/scripts-3.6/make_bound_rlv.py	/^from plnn.model import dump_rlv, load_rlv, simplify_network$/;"	i
+load_rlv	build/scripts-3.6/removeMaxPoolRLV.py	/^from plnn.model import load_rlv, dump_rlv$/;"	i
+load_rlv	build/scripts-3.6/rlv_2_nnet.py	/^from plnn.model import load_rlv, dump_nnet$/;"	i
+load_rlv	plnn/model.py	/^def load_rlv(rlv_infile):$/;"	f
+log_primal	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^            def log_primal(metric, val):$/;"	f	function:Reporter.report_metrics
+log_prox	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^            def log_prox(metric, val):$/;"	f	function:Reporter.report_metrics
+logger	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^import logger$/;"	i
+lp_primal_eval	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    lp_primal_eval=False,$/;"	v
+main	build/scripts-3.6/acas_2_rlv.py	/^def main():$/;"	f
+main	build/scripts-3.6/bab_runner.py	/^def main():$/;"	f
+main	build/scripts-3.6/banban_bab_runner.py	/^def main():$/;"	f
+main	build/scripts-3.6/cactus_plot.py	/^def main():$/;"	f
+main	build/scripts-3.6/compare_benchmarks.py	/^def main():$/;"	f
+main	build/scripts-3.6/compare_relaxations.py	/^def main():$/;"	f
+main	build/scripts-3.6/evaluate_twinladder.py	/^def main():$/;"	f
+main	build/scripts-3.6/generate_robustness_nnet.py	/^def main():$/;"	f
+main	build/scripts-3.6/generate_twinladder_net.py	/^def main():$/;"	f
+main	build/scripts-3.6/graph_PCAMNIST_study.py	/^def main():$/;"	f
+main	build/scripts-3.6/grb_blackbox_runner.py	/^def main():$/;"	f
+main	build/scripts-3.6/heuristic_runner.py	/^def main():$/;"	f
+main	build/scripts-3.6/make_bound_rlv.py	/^def main():$/;"	f
+main	build/scripts-3.6/memtime_wrapper.py	/^def main():$/;"	f
+main	build/scripts-3.6/mip_robustness.py	/^def main():$/;"	f
+main	build/scripts-3.6/mip_runner.py	/^def main():$/;"	f
+main	build/scripts-3.6/mip_tuner.py	/^def main():$/;"	f
+main	build/scripts-3.6/mnist_trainer.py	/^def main():$/;"	f
+main	build/scripts-3.6/relubab_runner.py	/^def main():$/;"	f
+main	build/scripts-3.6/removeMaxPoolRLV.py	/^def main():$/;"	f
+main	build/scripts-3.6/rlv_2_nnet.py	/^def main():$/;"	f
+main	build/scripts-3.6/summarize_binary_search.py	/^def main():$/;"	f
+main	exp_utils/mnist_utils.py	/^def main():$/;"	f
+main	med_experiments/med_bab_mip.py	/^def main():$/;"	f
+main	med_experiments/stability_analysis.py	/^def main():$/;"	f
+make_cactus_plot	build/scripts-3.6/cactus_plot.py	/^def make_cactus_plot(all_results, gt_table, target_filename,$/;"	f
+make_dir_exist	build/scripts-3.6/memtime_wrapper.py	/^def make_dir_exist(path_to_out):$/;"	f
+make_elided_models	exp_utils/model_utils.py	/^def make_elided_models(model, return_error=False):$/;"	f
+make_lin_expr	plnn/mip_solver.py	/^                def make_lin_expr(out_chan_idx, out_row_idx, out_col_idx):$/;"	f	function:MIPNetwork.setup_model
+make_lin_expr	plnn/network_linear_approximation.py	/^                def make_lin_expr(out_chan_idx, out_row_idx, out_col_idx):$/;"	f	function:LinearizedNetwork.build_model_using_bounds
+make_plots	build/scripts-3.6/compare_relaxations.py	/^def make_plots(target_filename, measurements):$/;"	f
+math	build/lib/plnn/branch_and_bound.py	/^import math$/;"	i
+math	build/lib/plnn/conv_kwinter.py	/^import math$/;"	i
+math	build/lib/plnn/model.py	/^import math$/;"	i
+math	build/lib/plnn/network_linear_approximation.py	/^import math$/;"	i
+math	build/scripts-3.6/evaluate_twinladder.py	/^import math$/;"	i
+math	build/scripts-3.6/graph_PCAMNIST_study.py	/^import math$/;"	i
+math	build/scripts-3.6/mnist_trainer.py	/^import math$/;"	i
+math	exp_utils/mnist_utils.py	/^import math$/;"	i
+math	plnn/branch_and_bound.py	/^import math$/;"	i
+math	plnn/conv_kwinter_gen.py	/^import math$/;"	i
+math	plnn/conv_kwinter_kw.py	/^import math$/;"	i
+math	plnn/model.py	/^import math$/;"	i
+math	plnn/network_linear_approximation.py	/^import math$/;"	i
+matplotlib	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	build/scripts-3.6/cactus_plot.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	build/scripts-3.6/cactus_plot.py	/^import matplotlib; matplotlib.use('agg')$/;"	i
+matplotlib	build/scripts-3.6/compare_relaxations.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	build/scripts-3.6/compare_relaxations.py	/^import matplotlib; matplotlib.use('agg')$/;"	i
+matplotlib	build/scripts-3.6/evaluate_twinladder.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	build/scripts-3.6/evaluate_twinladder.py	/^import matplotlib; matplotlib.use('agg')$/;"	i
+matplotlib	build/scripts-3.6/graph_PCAMNIST_study.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	build/scripts-3.6/graph_PCAMNIST_study.py	/^import matplotlib; matplotlib.use('agg')$/;"	i
+max_inner_iter	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    max_inner_iter=int(5),$/;"	v
+max_outer_iter	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    max_outer_iter=int(100),$/;"	v
+max_pool	exp_utils/model_utils.py	/^def max_pool(candi_tot, lb_abs, change_sign=False):$/;"	f
+memory_kB	build/scripts-3.6/memtime_wrapper.py	/^def memory_kB():$/;"	f
+mini_mnist_model	exp_utils/model_utils.py	/^def mini_mnist_model(): $/;"	f
+mini_mnist_model_m1	exp_utils/model_utils.py	/^def mini_mnist_model_m1():$/;"	f
+mnist_model	exp_utils/model_utils.py	/^def mnist_model(): $/;"	f
+mnist_model_deep	exp_utils/model_utils.py	/^def mnist_model_deep():$/;"	f
+mnist_model_m1	exp_utils/model_utils.py	/^def mnist_model_m1():$/;"	f
+multiprocessing	med_experiments/med_bab_mip.py	/^import multiprocessing$/;"	i
+multiprocessing	med_experiments/stability_analysis.py	/^import multiprocessing$/;"	i
+name	setup.py	/^    name='PLNN-verification',$/;"	v
+name_without_variation	build/scripts-3.6/evaluate_twinladder.py	/^    def name_without_variation(self, variation=None):$/;"	m	class:Settings
+nn	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/best_guess_timeout.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/black_box.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/conv_kwinter.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/dual_network_linear_approximation.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/kw_score_conv.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/mip_solver.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/model.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/modules.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/network_linear_approximation.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/relu_branch_and_bound.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/relu_conv_any.py	/^from torch import nn$/;"	i
+nn	build/lib/plnn/relu_conv_gen.py	/^from torch import nn$/;"	i
+nn	build/scripts-3.6/generate_robustness_nnet.py	/^from torch import nn$/;"	i
+nn	build/scripts-3.6/generate_twinladder_net.py	/^from torch import nn$/;"	i
+nn	build/scripts-3.6/make_bound_rlv.py	/^from torch import nn$/;"	i
+nn	build/scripts-3.6/mip_robustness.py	/^from torch import nn$/;"	i
+nn	build/scripts-3.6/mnist_trainer.py	/^from torch import nn$/;"	i
+nn	exp_utils/mnist_utils.py	/^from torch import nn$/;"	i
+nn	exp_utils/model_utils.py	/^from torch import nn $/;"	i
+nn	med_experiments/med_bab_mip.py	/^from torch import nn $/;"	i
+nn	med_experiments/stability_analysis.py	/^from torch import nn $/;"	i
+nn	plnn/conv_kwinter_gen.py	/^from torch import nn$/;"	i
+nn	plnn/conv_kwinter_kw.py	/^from torch import nn$/;"	i
+nn	plnn/dual_network_linear_approximation.py	/^from torch import nn$/;"	i
+nn	plnn/kw_score_conv.py	/^from torch import nn$/;"	i
+nn	plnn/mip_solver.py	/^from torch import nn$/;"	i
+nn	plnn/model.py	/^from torch import nn$/;"	i
+nn	plnn/modules.py	/^from torch import nn$/;"	i
+nn	plnn/network_linear_approximation.py	/^from torch import nn$/;"	i
+nn	plnn/relu_conv_any_kw.py	/^from torch import nn$/;"	i
+nn	plnn/relu_stability.py	/^from torch import nn$/;"	i
+no_grad	build/lib/plnn/branch_and_bound.py	/^def no_grad(f):$/;"	f
+no_grad	build/lib/plnn/model.py	/^def no_grad(mod):$/;"	f
+no_grad	plnn/branch_and_bound.py	/^def no_grad(f):$/;"	f
+no_grad	plnn/model.py	/^def no_grad(mod):$/;"	f
+normalize_outrange	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def normalize_outrange(self, lbs, ubs):$/;"	m	class:LinearOp
+np	build/lib/plnn/kw_score_conv.py	/^import numpy as np$/;"	i
+np	plnn/kw_score_conv.py	/^import numpy as np$/;"	i
+np	plnn/relu_stability.py	/^import numpy as np$/;"	i
+operator	build/scripts-3.6/mnist_trainer.py	/^import operator$/;"	i
+operator	exp_utils/mnist_utils.py	/^import operator$/;"	i
+os	build/scripts-3.6/cactus_plot.py	/^import os$/;"	i
+os	build/scripts-3.6/compare_benchmarks.py	/^import os$/;"	i
+os	build/scripts-3.6/generate_robustness_nnet.py	/^import os$/;"	i
+os	build/scripts-3.6/graph_PCAMNIST_study.py	/^import os$/;"	i
+os	build/scripts-3.6/memtime_wrapper.py	/^import os$/;"	i
+os	build/scripts-3.6/mip_robustness.py	/^import os$/;"	i
+os	build/scripts-3.6/mnist_trainer.py	/^import os$/;"	i
+os	build/scripts-3.6/summarize_binary_search.py	/^import os$/;"	i
+os	exp_utils/mnist_utils.py	/^import os$/;"	i
+os	exp_utils/plnn_utils.py	/^import os$/;"	i
+os	med_experiments/med_bab_mip.py	/^import os$/;"	i
+os	med_experiments/stability_analysis.py	/^import os$/;"	i
+os	plnn/relu_stability.py	/^import os$/;"	i
+packages	setup.py	/^    packages=find_packages(),$/;"	v
+params	build/scripts-3.6/graph_PCAMNIST_study.py	/^    def params(self):$/;"	m	class:Settings
+parse_all_names	build/scripts-3.6/evaluate_twinladder.py	/^def parse_all_names(results_dir):$/;"	f
+parse_all_names	build/scripts-3.6/graph_PCAMNIST_study.py	/^def parse_all_names(results_dir, wanted_params):$/;"	f
+path	setup.py	/^from os import path$/;"	i
+pd	med_experiments/med_bab_mip.py	/^import pandas as pd$/;"	i
+pd	med_experiments/stability_analysis.py	/^import pandas as pd$/;"	i
+pdb	build/lib/plnn/relu_conv_gen.py	/^        import pdb; pdb.set_trace()$/;"	i
+pdb	med_experiments/med_bab_mip.py	/^                    import pdb; pdb.set_trace()$/;"	i
+pdb	med_experiments/med_bab_mip.py	/^            import pdb; pdb.set_trace()$/;"	i
+pdb	med_experiments/stability_analysis.py	/^        import pdb; pdb.set_trace()$/;"	i
+pdb	plnn/dual_network_linear_approximation.py	/^        import pdb; pdb.set_trace()$/;"	i
+pick_out	build/lib/plnn/branch_and_bound.py	/^def pick_out(domains, threshold):$/;"	f
+pick_out	build/lib/plnn/relu_branch_and_bound.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+pick_out	build/lib/plnn/relu_conv_any.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+pick_out	build/lib/plnn/relu_conv_gen.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+pick_out	plnn/branch_and_bound.py	/^def pick_out(domains, threshold):$/;"	f
+pick_out	plnn/relu_conv_any_kw.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+pick_out	plnn/relu_stability.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+pickle	build/lib/dataset_tools/utils.py	/^import _pickle as pickle$/;"	i
+pickle	exp_utils/plnn_utils.py	/^import _pickle as pickle$/;"	i
+pickle	med_experiments/stability_analysis.py	/^import pickle$/;"	i
+pickle	plnn/relu_stability.py	/^import pickle$/;"	i
+plot_all_curves	build/scripts-3.6/evaluate_twinladder.py	/^def plot_all_curves(all_curves, variation, target_filename):$/;"	f
+plot_all_curves	build/scripts-3.6/graph_PCAMNIST_study.py	/^def plot_all_curves(all_curves, var_axis_name, target_filename, log_x):$/;"	f
+plt	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	build/scripts-3.6/cactus_plot.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	build/scripts-3.6/compare_relaxations.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	build/scripts-3.6/evaluate_twinladder.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	build/scripts-3.6/graph_PCAMNIST_study.py	/^import matplotlib.pyplot as plt$/;"	i
+primal_dual_check	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    primal_dual_check=False,$/;"	v
+primal_dual_threshold	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    primal_dual_threshold=1e-2$/;"	v
+print_all_curves	build/scripts-3.6/evaluate_twinladder.py	/^def print_all_curves(all_curves):$/;"	f
+print_remaining_domain	build/lib/plnn/branch_and_bound.py	/^def print_remaining_domain(domains):$/;"	f
+print_remaining_domain	plnn/branch_and_bound.py	/^def print_remaining_domain(domains):$/;"	f
+prod	build/scripts-3.6/mnist_trainer.py	/^def prod(iterable):$/;"	f
+prod	exp_utils/mnist_utils.py	/^def prod(iterable):$/;"	f
+product	plnn/mip_solver.py	/^from itertools import product$/;"	i
+product	plnn/network_linear_approximation.py	/^from itertools import product$/;"	i
+prune_domains	build/lib/plnn/branch_and_bound.py	/^def prune_domains(domains, threshold):$/;"	f
+prune_domains	build/lib/plnn/relu_branch_and_bound.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+prune_domains	build/lib/plnn/relu_conv_any.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+prune_domains	build/lib/plnn/relu_conv_gen.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+prune_domains	plnn/branch_and_bound.py	/^def prune_domains(domains, threshold):$/;"	f
+prune_domains	plnn/relu_conv_any_kw.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+prune_domains	plnn/relu_stability.py	/^from plnn.branch_and_bound import pick_out, add_domain, prune_domains$/;"	i
+psutil	build/scripts-3.6/memtime_wrapper.py	/^import psutil$/;"	i
+random	exp_utils/model_utils.py	/^import random$/;"	i
+random	med_experiments/stability_analysis.py	/^import random$/;"	i
+random	plnn/relu_stability.py	/^import random$/;"	i
+re	build/scripts-3.6/compare_benchmarks.py	/^import re$/;"	i
+re	build/scripts-3.6/evaluate_twinladder.py	/^import re$/;"	i
+re	build/scripts-3.6/graph_PCAMNIST_study.py	/^import re$/;"	i
+relu_bab	build/lib/plnn/relu_branch_and_bound.py	/^def relu_bab(net, domain, eps=1e-3, decision_bound=None):$/;"	f
+relu_bab	build/lib/plnn/relu_conv_any.py	/^def relu_bab(net, domain,  x, ball_eps, eps=1e-4, pgd_threshold = 0.25, decision_bound=None):$/;"	f
+relu_bab	build/lib/plnn/relu_conv_gen.py	/^def relu_bab(net, domain,  x, ball_eps, eps=1e-4, decision_bound=None, dump_trace=None):$/;"	f
+relu_bab	build/scripts-3.6/relubab_runner.py	/^from plnn.relu_branch_and_bound import relu_bab$/;"	i
+relu_bab	med_experiments/med_bab_mip.py	/^from plnn.relu_conv_any_kw import relu_bab$/;"	i
+relu_bab	med_experiments/stability_analysis.py	/^from plnn.relu_conv_any_kw import relu_bab$/;"	i
+relu_bab	plnn/relu_conv_any_kw.py	/^def relu_bab(net, domain,  x, ball_eps, eps=1e-4, pgd_threshold = 1, split_decision='kw', sparsest_layer=0, decision_bound=None, linear=False, model_path=None, bounded = True):$/;"	f
+relu_split	build/lib/plnn/relu_branch_and_bound.py	/^def relu_split(layers, mask):$/;"	f
+relu_split	build/lib/plnn/relu_conv_any.py	/^def relu_split(layers, mask):$/;"	f
+relu_split	build/lib/plnn/relu_conv_gen.py	/^def relu_split(layers, mask):$/;"	f
+relu_split	plnn/relu_conv_any_kw.py	/^def relu_split(layers, mask):$/;"	f
+relu_split	plnn/relu_stability.py	/^def relu_split(layers, mask):$/;"	f
+relu_stab	med_experiments/stability_analysis.py	/^from plnn.relu_stability import relu_stab$/;"	i
+relu_stab	plnn/relu_stability.py	/^def relu_stab(net, domain, bounded, x, ball_eps, dump_trace, eps=1e-4, pgd_threshold = 1,  sparsest_layer=0, decision_bound=None, criteria='kw', record=None):$/;"	f
+reluify_maxpool	build/lib/plnn/dual_network_linear_approximation.py	/^from plnn.model import reluify_maxpool, simplify_network$/;"	i
+reluify_maxpool	build/lib/plnn/model.py	/^def reluify_maxpool(layers, domain, no_opt=False):$/;"	f
+reluify_maxpool	build/lib/plnn/network_linear_approximation.py	/^        from plnn.model import reluify_maxpool, simplify_network$/;"	i
+reluify_maxpool	plnn/dual_network_linear_approximation.py	/^from plnn.model import reluify_maxpool, simplify_network$/;"	i
+reluify_maxpool	plnn/model.py	/^def reluify_maxpool(layers, domain, no_opt=False):$/;"	f
+reluify_maxpool	plnn/network_linear_approximation.py	/^        from plnn.model import reluify_maxpool, simplify_network$/;"	i
+reluplex_bin	build/scripts-3.6/generate_robustness_nnet.py	/^reluplex_bin = '\/home\/rudy\/workspace\/PLNN-verification\/ReluplexCav2017\/check_properties\/bin\/generic_prover.elf'$/;"	v
+reluplex_command	build/scripts-3.6/generate_robustness_nnet.py	/^reluplex_command = sh.Command(reluplex_bin)$/;"	v
+reluplex_log_re	build/scripts-3.6/compare_benchmarks.py	/^reluplex_log_re = re.compile('Total visited states:\\s*(?P<nb_visited_states>\\d+)')$/;"	v
+reluplex_possiblenotrobust	build/scripts-3.6/generate_robustness_nnet.py	/^def reluplex_possiblenotrobust(path_to_nnet):$/;"	f
+remove_fails	build/scripts-3.6/compare_benchmarks.py	/^def remove_fails(res_dict):$/;"	f
+remove_maxpools	build/lib/plnn/dual_network_linear_approximation.py	/^    def remove_maxpools(self, domain, no_opt=False):$/;"	m	class:LooseDualNetworkApproximation
+remove_maxpools	build/lib/plnn/network_linear_approximation.py	/^    def remove_maxpools(self, domain):$/;"	m	class:LinearizedNetwork
+remove_maxpools	plnn/dual_network_linear_approximation.py	/^    def remove_maxpools(self, domain, no_opt=False):$/;"	m	class:LooseDualNetworkApproximation
+remove_maxpools	plnn/network_linear_approximation.py	/^    def remove_maxpools(self, domain):$/;"	m	class:LinearizedNetwork
+remove_non_common	build/scripts-3.6/cactus_plot.py	/^from compare_benchmarks import load_bench_results, build_GT_table, remove_non_common$/;"	i
+remove_non_common	build/scripts-3.6/compare_benchmarks.py	/^def remove_non_common(all_results):$/;"	f
+report_metrics	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def report_metrics(self, debug_state):$/;"	m	class:Reporter
+samples_log_re	build/scripts-3.6/compare_benchmarks.py	/^samples_log_re = re.compile('Nb samples:\\s*(?P<nb_visited_states>\\d+)')$/;"	v
+scipy	build/lib/plnn/model.py	/^import scipy.io$/;"	i
+scipy	plnn/model.py	/^import scipy.io$/;"	i
+scripts	setup.py	/^    scripts=glob.glob('tools\/*.py'),$/;"	v
+set_trace	build/lib/plnn/relu_conv_gen.py	/^        import pdb; pdb.set_trace()$/;"	i
+set_trace	med_experiments/med_bab_mip.py	/^                    import pdb; pdb.set_trace()$/;"	i
+set_trace	med_experiments/med_bab_mip.py	/^            import pdb; pdb.set_trace()$/;"	i
+set_trace	med_experiments/stability_analysis.py	/^        import pdb; pdb.set_trace()$/;"	i
+set_trace	plnn/dual_network_linear_approximation.py	/^        import pdb; pdb.set_trace()$/;"	i
+setup	setup.py	/^from setuptools import setup, find_packages$/;"	i
+setup_model	build/lib/plnn/black_box.py	/^    def setup_model(self, inp_domain, use_obj_function=False):$/;"	m	class:BlackBoxNetwork
+setup_model	build/lib/plnn/mip_solver.py	/^    def setup_model(self, inp_domain,$/;"	m	class:MIPNetwork
+setup_model	plnn/mip_solver.py	/^    def setup_model(self, inp_domain,$/;"	m	class:MIPNetwork
+sh	build/scripts-3.6/generate_robustness_nnet.py	/^import sh$/;"	i
+sh	build/scripts-3.6/memtime_wrapper.py	/^import sh$/;"	i
+simplify_network	build/lib/plnn/dual_network_linear_approximation.py	/^from plnn.model import reluify_maxpool, simplify_network$/;"	i
+simplify_network	build/lib/plnn/model.py	/^def simplify_network(all_layers):$/;"	f
+simplify_network	build/lib/plnn/network_linear_approximation.py	/^        from plnn.model import reluify_maxpool, simplify_network$/;"	i
+simplify_network	build/scripts-3.6/generate_twinladder_net.py	/^from plnn.model import dump_nnet, dump_rlv, simplify_network$/;"	i
+simplify_network	build/scripts-3.6/make_bound_rlv.py	/^from plnn.model import dump_rlv, load_rlv, simplify_network$/;"	i
+simplify_network	build/scripts-3.6/mnist_trainer.py	/^from plnn.model import simplify_network, dump_rlv$/;"	i
+simplify_network	exp_utils/mnist_utils.py	/^from plnn.model import simplify_network, dump_rlv$/;"	i
+simplify_network	exp_utils/model_utils.py	/^from plnn.model import simplify_network$/;"	i
+simplify_network	plnn/dual_network_linear_approximation.py	/^from plnn.model import reluify_maxpool, simplify_network$/;"	i
+simplify_network	plnn/model.py	/^def simplify_network(all_layers):$/;"	f
+simplify_network	plnn/network_linear_approximation.py	/^        from plnn.model import reluify_maxpool, simplify_network$/;"	i
+smart_box_split	build/lib/plnn/branch_and_bound.py	/^def smart_box_split(ndomain, dualnet, domain_lb, domain_width, useful_cutoff):$/;"	f
+smart_box_split	plnn/branch_and_bound.py	/^def smart_box_split(ndomain, dualnet, domain_lb, domain_width, useful_cutoff):$/;"	f
+sns	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^import seaborn as sns$/;"	i
+solve	build/lib/plnn/black_box.py	/^    def solve(self, inp_domain):$/;"	m	class:BlackBoxNetwork
+solve	build/lib/plnn/mip_solver.py	/^    def solve(self, inp_domain, timeout=None):$/;"	m	class:MIPNetwork
+solve	plnn/mip_solver.py	/^    def solve(self, inp_domain, timeout=None):$/;"	m	class:MIPNetwork
+solve_problem	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^def solve_problem(weights, obj_layer,$/;"	f
+split	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    def split(self, constrained, with_renorm=True):$/;"	m	class:PlanetPDMapper
+standard_log_re	build/scripts-3.6/compare_benchmarks.py	/^standard_log_re = re.compile('Nb states visited:\\s*(?P<nb_visited_states>\\d+)(\\.0)?$')$/;"	v
+sys	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^            import sys; sys.exit()$/;"	i
+sys	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^        import sys; sys.exit()$/;"	i
+sys	build/lib/plnn/model.py	/^        import sys; sys.exit()$/;"	i
+sys	build/scripts-3.6/generate_robustness_nnet.py	/^    import sys; sys.exit()$/;"	i
+sys	build/scripts-3.6/generate_robustness_nnet.py	/^import sys$/;"	i
+sys	setup.py	/^import sys$/;"	i
+testing_indices	plnn/relu_stability.py	/^def testing_indices(mask, score):$/;"	f
+time	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^import time$/;"	i
+time	build/lib/plnn/best_guess_timeout.py	/^import time$/;"	i
+time	build/lib/plnn/conv_kwinter.py	/^import time$/;"	i
+time	build/scripts-3.6/generate_robustness_nnet.py	/^import time$/;"	i
+time	build/scripts-3.6/memtime_wrapper.py	/^import time$/;"	i
+time	build/scripts-3.6/mip_robustness.py	/^import time$/;"	i
+time	med_experiments/med_bab_mip.py	/^import time$/;"	i
+time	med_experiments/stability_analysis.py	/^import time$/;"	i
+time	plnn/conv_kwinter_gen.py	/^import time$/;"	i
+time	plnn/conv_kwinter_kw.py	/^import time$/;"	i
+time	plnn/relu_conv_any_kw.py	/^import time$/;"	i
+time	plnn/relu_stability.py	/^import time$/;"	i
+timeout_time	build/scripts-3.6/cactus_plot.py	/^timeout_time = 7200$/;"	v
+timeout_time	build/scripts-3.6/compare_benchmarks.py	/^timeout_time = 7200$/;"	v
+timeout_val	build/scripts-3.6/graph_PCAMNIST_study.py	/^timeout_val = 7200$/;"	v
+timer	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^from proxlp.timer import timer$/;"	i
+timer	build/scripts-3.6/compare_relaxations.py	/^from timeit import default_timer as timer$/;"	i
+to_dual	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    to_dual = split$/;"	v	class:PlanetPDMapper
+to_primal	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^    to_primal = gather$/;"	v	class:PlanetPDMapper
+torch	build/lib/dataset_tools/utils.py	/^import torch$/;"	i
+torch	build/lib/plnn/banban_lp/banban_linear_approximation.py	/^import torch$/;"	i
+torch	build/lib/plnn/best_guess_timeout.py	/^import torch$/;"	i
+torch	build/lib/plnn/black_box.py	/^import torch$/;"	i
+torch	build/lib/plnn/branch_and_bound.py	/^import torch$/;"	i
+torch	build/lib/plnn/conv_kwinter.py	/^import torch$/;"	i
+torch	build/lib/plnn/dual_network_linear_approximation.py	/^import torch$/;"	i
+torch	build/lib/plnn/kw_score_conv.py	/^import torch$/;"	i
+torch	build/lib/plnn/mip_solver.py	/^import torch$/;"	i
+torch	build/lib/plnn/model.py	/^import torch$/;"	i
+torch	build/lib/plnn/network_linear_approximation.py	/^import torch$/;"	i
+torch	build/lib/plnn/relu_branch_and_bound.py	/^import torch$/;"	i
+torch	build/lib/plnn/relu_conv_any.py	/^import torch$/;"	i
+torch	build/lib/plnn/relu_conv_gen.py	/^import torch$/;"	i
+torch	build/scripts-3.6/compare_relaxations.py	/^import torch$/;"	i
+torch	build/scripts-3.6/generate_robustness_nnet.py	/^import torch$/;"	i
+torch	build/scripts-3.6/generate_twinladder_net.py	/^import torch$/;"	i
+torch	build/scripts-3.6/mip_robustness.py	/^import torch$/;"	i
+torch	build/scripts-3.6/mnist_trainer.py	/^import torch$/;"	i
+torch	build/scripts-3.6/removeMaxPoolRLV.py	/^import torch$/;"	i
+torch	build/scripts-3.6/rlv_2_nnet.py	/^import torch$/;"	i
+torch	exp_utils/mnist_utils.py	/^import torch$/;"	i
+torch	exp_utils/model_utils.py	/^import torch$/;"	i
+torch	exp_utils/plnn_utils.py	/^import torch$/;"	i
+torch	med_experiments/med_bab_mip.py	/^import torch$/;"	i
+torch	med_experiments/stability_analysis.py	/^import torch$/;"	i
+torch	plnn/branch_and_bound.py	/^import torch$/;"	i
+torch	plnn/conv_kwinter_gen.py	/^import torch$/;"	i
+torch	plnn/conv_kwinter_kw.py	/^import torch$/;"	i
+torch	plnn/dual_network_linear_approximation.py	/^import torch$/;"	i
+torch	plnn/kw_score_conv.py	/^import torch$/;"	i
+torch	plnn/mip_solver.py	/^import torch$/;"	i
+torch	plnn/model.py	/^import torch$/;"	i
+torch	plnn/network_linear_approximation.py	/^import torch$/;"	i
+torch	plnn/relu_conv_any_kw.py	/^import torch$/;"	i
+torch	plnn/relu_stability.py	/^import torch$/;"	i
+torchvision	build/scripts-3.6/generate_robustness_nnet.py	/^import torchvision$/;"	i
+torchvision	build/scripts-3.6/mip_robustness.py	/^import torchvision$/;"	i
+torchvision	build/scripts-3.6/mnist_trainer.py	/^import torchvision$/;"	i
+torchvision	exp_utils/mnist_utils.py	/^import torchvision$/;"	i
+torchvision	exp_utils/model_utils.py	/^        import torchvision.datasets as datasets$/;"	i
+torchvision	exp_utils/model_utils.py	/^        import torchvision.transforms as transforms$/;"	i
+torchvision	exp_utils/model_utils.py	/^    import torchvision.datasets as datasets$/;"	i
+torchvision	exp_utils/model_utils.py	/^    import torchvision.transforms as transforms$/;"	i
+torchvision	med_experiments/med_bab_mip.py	/^import torchvision.datasets as datasets$/;"	i
+torchvision	med_experiments/med_bab_mip.py	/^import torchvision.transforms as transforms$/;"	i
+train_mnist	build/scripts-3.6/mnist_trainer.py	/^def train_mnist(train_data, train_labels,$/;"	f
+train_mnist	exp_utils/mnist_utils.py	/^def train_mnist(train_data, train_labels,$/;"	f
+transforms	exp_utils/model_utils.py	/^        import torchvision.transforms as transforms$/;"	i
+transforms	exp_utils/model_utils.py	/^    import torchvision.transforms as transforms$/;"	i
+transforms	med_experiments/med_bab_mip.py	/^import torchvision.transforms as transforms$/;"	i
+tune	build/lib/plnn/mip_solver.py	/^    def tune(self, param_outfile, tune_timeout):$/;"	m	class:MIPNetwork
+tune	plnn/mip_solver.py	/^    def tune(self, param_outfile, tune_timeout):$/;"	m	class:MIPNetwork
+uniquely_solved	build/scripts-3.6/compare_benchmarks.py	/^def uniquely_solved(d1, d2):$/;"	f
+update_kw_bounds	build/lib/plnn/dual_network_linear_approximation.py	/^    def update_kw_bounds(self, dual_info, change_idx, pre_lb_all = None, pre_ub_all =None, decision =None, choice=None, de_dual = None):$/;"	m	class:LooseDualNetworkApproximation
+update_kw_bounds	plnn/dual_network_linear_approximation.py	/^    def update_kw_bounds(self, dual_replace_idx, pre_lb_all = None, pre_ub_all =None, decision =None, choice=None, dual_info=None):$/;"	m	class:LooseDualNetworkApproximation
+update_the_model	build/lib/plnn/conv_kwinter.py	/^    def update_the_model(self, relu_mask, pre_lb_all, pre_ub_all, decision, choice, dual_info):$/;"	m	class:KWConvNetwork
+update_the_model	plnn/conv_kwinter_gen.py	/^    def update_the_model(self, relu_mask, pre_lb_all, pre_ub_all, decision, choice):$/;"	m	class:KWConvGen
+update_the_model	plnn/conv_kwinter_kw.py	/^    def update_the_model(self, relu_mask, pre_lb_all, pre_ub_all, decision, choice):$/;"	m	class:KWConvNetwork
+use	build/scripts-3.6/cactus_plot.py	/^import matplotlib; matplotlib.use('agg')$/;"	i
+use	build/scripts-3.6/compare_relaxations.py	/^import matplotlib; matplotlib.use('agg')$/;"	i
+use	build/scripts-3.6/evaluate_twinladder.py	/^import matplotlib; matplotlib.use('agg')$/;"	i
+use	build/scripts-3.6/graph_PCAMNIST_study.py	/^import matplotlib; matplotlib.use('agg')$/;"	i
+val	build/scripts-3.6/graph_PCAMNIST_study.py	/^    def val(self, wanted_params):$/;"	m	class:Settings
+var2axis	build/scripts-3.6/evaluate_twinladder.py	/^var2axis = {$/;"	v
+version	setup.py	/^    version='0.0.2',$/;"	v
+win_count	build/scripts-3.6/compare_benchmarks.py	/^def win_count(all_results, gt_map):$/;"	f
+write_rlv_file	build/lib/plnn/model.py	/^    def write_rlv_file(self, rlv_outfile):$/;"	m	class:AcasNetwork
+write_rlv_file	plnn/model.py	/^    def write_rlv_file(self, rlv_outfile):$/;"	m	class:AcasNetwork

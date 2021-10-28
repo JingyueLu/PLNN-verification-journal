@@ -1,0 +1,12 @@
+sh
+numpy
+torch==0.4.1
+scipy
+
+[dev]
+ipython
+ipdb
+
+[tests]
+mypy
+flake8
